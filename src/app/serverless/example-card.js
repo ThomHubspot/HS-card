@@ -10,8 +10,8 @@ exports.main = async (context = {}, sendResponse) => {
     "content": [
 	    {
 				"type": "image",
-				"src": "https://www.entreprises.cci-paris-idf.fr/documents/20152/0/Logo+CCI+Paris+2021+%281%29.jpg",
-				"alt": "CCI Logo",
+				"src": "https://s3-eu-west-1.amazonaws.com/tpd/logos/6042432282d4930001d28387/0x0.png",
+				"alt": "HEllo syndic Logo",
 				"width": 300,
 				"onClick": {
 					"type": "SERVERLESS_ACTION_HOOK",

@@ -7,7 +7,7 @@
    "targetFunction": "crm-card",
    "objectTypes": [
     {
-     "name": "p_Copropriétés",
+     "name": "p_copropriétés",
      "propertiesToSend": ["code_postal"]
     }
    ]

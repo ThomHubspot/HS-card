@@ -1,13 +1,13 @@
 {
  "type": "crm-card",
  "data": {
-  "title": "Example CRM Card",
+  "title": "Example CRM Card Hello syndic",
   "location":"crm.record.sidebar"
   "fetch": {
    "targetFunction": "crm-card",
    "objectTypes": [
     {
-     "name": "contacts",
+     "name": "Copropriétés",
      "propertiesToSend": ["firstname"]
     }
    ]

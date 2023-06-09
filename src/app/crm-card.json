@@ -8,7 +8,7 @@
    "objectTypes": [
     {
      "name": "p_Copropriétés",
-     "propertiesToSend": ["firstname"]
+     "propertiesToSend": ["code_postal"]
     }
    ]
   }

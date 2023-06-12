@@ -40,20 +40,20 @@ exports.main = async (context = {}, sendResponse) => {
           {
             "type": "select",
             "name": "select_input",
-            "label": "Choisissez un produit",
+            "label": "Choisissez une prestation",
             "placeholder": "Veuillez choisir",
             "options": [
               {
                 "value": 42,
-                "label": "Produit 1"
+                "label": "prestation 1"
               },
               {
                 "value": true,
-                "label": "Produit 2"
+                "label": "prestation 2"
               },
               {
                 "value": "a string",
-                "label": "Produit 3"
+                "label": "prestation 3"
               }
             ]
           }
@@ -86,16 +86,16 @@ exports.main = async (context = {}, sendResponse) => {
       },
       {
         "type": "input",
-        "name": "Signataire du contrat OCI",
+        "name": "Signataire du contrat Hello Syndic",
         "inputType": "text",
-        "label": "Signataire du contrat OCI",
+        "label": "Signataire du contrat Hello Syndic",
         "initialValue": ""
       },
       {
         "type": "input",
-        "name": "Signataire du contrat Client",
+        "name": "Signataire du contrat Copro",
         "inputType": "text",
-        "label": "Signataire du contrat Client",
+        "label": "Signataire du contrat Copro",
         "initialValue": ""
       },
       {

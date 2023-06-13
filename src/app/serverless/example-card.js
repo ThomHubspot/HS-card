@@ -45,15 +45,15 @@ exports.main = async (context = {}, sendResponse) => {
             "options": [
               {
                 "value": 42,
-                "label": "prestation 1"
+                "label": "Connect"
               },
               {
                 "value": true,
-                "label": "prestation 2"
+                "label": "Comfort"
               },
               {
                 "value": "a string",
-                "label": "prestation 3"
+                "label": "Collection"
               }
             ]
           }

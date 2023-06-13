@@ -31,22 +31,6 @@ exports.main = async (context = {}, sendResponse) => {
       "serverlessFunction": "exampleFunction"
     }
   },{
-    "type": "image",
-    "src": "https://qualit-immo.fr/wp-content/uploads/2022/12/Allure_Vue_Rue.jpg",
-    "alt": "Photo-bien",
-    "onClick": {
-      "type": "SERVERLESS_ACTION_HOOK",
-      "serverlessFunction": "exampleFunction"
-    }
-  },{
-    "type": "image",
-    "src": "https://qualit-immo.fr/wp-content/uploads/2022/12/Allure-Combarel_Vue-facades-Sud-et-Est.jpg",
-    "alt": "Photo-bien",
-    "onClick": {
-      "type": "SERVERLESS_ACTION_HOOK",
-      "serverlessFunction": "exampleFunction"
-    }
-  },{
     "type": "divider",
     "distance": "small"
   },
